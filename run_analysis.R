@@ -90,5 +90,5 @@ DATA             <- read.table(file="tidy.txt", header=T)
 ## Test
 tidyDataRead     <- read.csv(tidyFileName, sep=' ')
 
-# @ For CodeBook.md creation write column names of data set ####
-write.table(colnames(mergedDataSubset), 'dataset-column-names.txt', row.names=FALSE)
+## CodeBook.md write column names
+write.table(colnames(mergedDataSubset), 'columnnames.txt', row.names=FALSE)
