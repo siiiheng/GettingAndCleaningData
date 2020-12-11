@@ -1,5 +1,5 @@
 ## Set the current work directory 
-setwd("C:/用户/Silvia/Documents/R/CourseProject")
+setwd("C:/users/Silvia/Documents/R/CourseProject")
 
 ## Download data set
 dataUrl          <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
